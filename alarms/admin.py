@@ -1,7 +1,6 @@
 from django.contrib import admin
 
 # Register your models here.
+from .models import Alarm
 
-from .models import Variable
-
-admin.site.register(Variable)
+admin.site.register(Alarm)
